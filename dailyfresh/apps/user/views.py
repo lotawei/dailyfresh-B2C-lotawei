@@ -13,8 +13,8 @@ from apps.goods.models import GoodsSKU
 from apps.order.models import OrderInfo, OrderGoods
 
 from celery_tasks.tasks import send_register_active_email
-from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
-from itsdangerous import SignatureExpired
+# from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+# from itsdangerous import SignatureExpired
 from utils.mixin import LoginRequiredMixin
 from django_redis import get_redis_connection
 import re

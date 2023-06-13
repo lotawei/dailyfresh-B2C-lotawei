@@ -1,5 +1,5 @@
 # -*-coding:utf-8-*-
-from django.conf.urls import url
+from django.urls import re_path as url
 from apps.cart.views import CartAddview, CartInfoView, CartUpdateView, CartDeleteView
 
 app_name = 'apps.cart'

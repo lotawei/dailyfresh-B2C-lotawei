@@ -1,5 +1,6 @@
 # -*-coding:utf-8-*-
-from django.conf.urls import url
+# from django.urls import re_path as url
+from django.urls import re_path as url
 # from apps.user import views
 from django.contrib.auth.decorators import login_required
 from apps.user.views import RegisterView, ActiveView, LoginView, LogoutView, UserInfoView, UserOrderView, AddressView
